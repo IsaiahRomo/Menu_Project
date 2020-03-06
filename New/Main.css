@@ -1,0 +1,51 @@
+html{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(10, 9, 9, 0.836);
+}
+body{
+    box-shadow: 4px 4px 8px black;
+}
+nav{
+    background-color: rgb(75, 24, 15);
+    width: 100%;
+}
+nav img{
+    width: 30%;
+}
+#links{
+    width: 98%;
+    padding: 1%;
+    background-color: rgb(247, 216, 113);
+    text-align: center;
+    box-shadow: 3px 3px 8px black;
+}
+#links a{
+    color: rgba(22, 22, 22, 0.836);
+    padding: .5%;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px black;
+}
+#links a:hover{
+    color: rgba(126, 53, 53, 0.836);
+    text-decoration: none;
+}
+section{
+    background: url(bodyback.png);
+    box-shadow: -2px 4px 6px black inset;
+    text-align: center;
+}
+section p#title{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px black;
+    color: white;
+}
+section p#item{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px black;
+    color: white;
+}
